@@ -442,6 +442,7 @@ outline: 2px solid tomato;
     display: flex;
     justify-content: center;
     margin-top: 8px;
+    gap: 8px;
 }
 
 .social-list-link{
@@ -455,7 +456,7 @@ background-color: #4D5AE5;
 
 }
 .social-list-icon{
-    fill: red;
+    fill:#F4F4FD;
 }
 
 
