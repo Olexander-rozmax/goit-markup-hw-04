@@ -22,11 +22,12 @@ body {
 }
 
 .hero-containetr {
-    outline: 2px solid red;
+
     padding-top: 188px;
      padding-bottom: 188px;
-     background-color: #2E2F42;
-     background-image: url(../images/hero-image/bg-hero-image.jpg);
+     background-color:rgba(46, 47, 66, 0.7);
+     background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/bg-hero-image.jpg);
+     background-size: cover;
 
 }
 
