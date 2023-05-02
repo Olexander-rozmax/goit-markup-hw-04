@@ -371,6 +371,8 @@ justify-content: center;
 .features-list-items{
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
+
 .features{
     column-gap: 24px;
      row-gap: 48px;
@@ -428,15 +430,36 @@ flex-basis: calc((100% - 48px) / 3);
 
 
 }
-
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .team-desc-container {
-
+outline: 2px solid tomato;
     padding: 32px 16px;
     text-align: center;
+
+
 }
+.social-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.social-list-link{
+display:flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4D5AE5;
+
+}
+
+
 
 .team-par {
     padding-top: 8px;
+
 }
 .employes{
     border-radius: 0px 0px 4px 4px;
