@@ -10,6 +10,7 @@ body {
 
 .container {
     width: 1158px;
+
     margin: 0 auto;
     padding: 0 15px;
 
@@ -28,6 +29,7 @@ body {
      background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/bg-hero-image.jpg);
      background-size: cover;
      background-color:rgba(46, 47, 66, 0.7);
+     
 
 }
 
@@ -298,6 +300,11 @@ span {
     margin-top: 48px;
 
 }
+.order-button:hover,
+.order-button:focus{
+    background-color: #404BBF;
+
+}
 
 .footer-text {
    
@@ -432,7 +439,7 @@ flex-basis: calc((100% - 48px) / 3);
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .team-desc-container {
-outline: 2px solid tomato;
+
     padding: 32px 16px;
     text-align: center;
 
@@ -455,6 +462,12 @@ border-radius: 50%;
 background-color: #4D5AE5;
 
 }
+.social-list-link:hover,
+.social-list-link:focus{
+
+
+    background-color: #404BBF;
+}
 .social-list-icon{
     fill:#F4F4FD;
 }
@@ -466,6 +479,8 @@ background-color: #4D5AE5;
 }
 .employes{
     border-radius: 0px 0px 4px 4px;
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 
 }
@@ -493,6 +508,8 @@ background-color: #4D5AE5;
  
 
     width: calc((100% - 48px) / 3);
+    background: #FFFFFF;
+
 
 
 
@@ -519,6 +536,13 @@ border-top:none;
         border: 1px solid #e7e9fc;
         border-top: none;
     }
+    .linc-descr:hover,
+    .linc-descr:focus{
+        border: 1px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
+
+
     .footer-text-studio{
         color: white;
     }
