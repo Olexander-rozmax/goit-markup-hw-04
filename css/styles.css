@@ -43,6 +43,8 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
+
+
 }
 
 .main-description {
@@ -384,6 +386,23 @@ justify-content: center;
     column-gap: 24px;
      row-gap: 48px;
 }
+
+
+
+
+.features-icons{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4FD;;
+    border-radius: 4px; 
+    width: 264px;
+height: 112px;
+}
+
+
+
 
 
 
