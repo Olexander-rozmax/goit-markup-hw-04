@@ -554,6 +554,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   
 }
 .customer-list-items{
+    width: calc((100% - 120px) / 6);
+    height:88px;
 
 }
 .customer-list-link{
@@ -571,7 +573,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .customer-list-link:focus{
     border-color: #404bbf;
     color: #404bbf;
-    
+
 }
 
 .customer-icon{
@@ -650,6 +652,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
  
 /* FOOTER - SMM SECTION ---------------------------- */
 
+.footer-smm-container{
+    display: flex;
+    align-items: baseline;
+    
+}
 .smm-title{
     color: #FFFFFF;
     text-align: center;
