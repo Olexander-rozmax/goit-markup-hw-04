@@ -493,7 +493,7 @@ background-color: #4D5AE5;
 .social-list-item{
     width: 40px;
     height: 40px;
-    
+    outline: 2px solid  red;
 
 }
 .social-list-link:hover,
