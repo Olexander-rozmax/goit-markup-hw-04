@@ -18,6 +18,7 @@ body {
 }
 .headefr-clas{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 .hero-containetr {
@@ -27,6 +28,9 @@ body {
      background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image/bg-hero-image.jpg);
      background-size: cover;
      background-color:rgba(46, 47, 66, 0.7);
+     max-width: 1440px;
+     background-repeat: no-repeat;
+     background-position: center;
      
 
 }
